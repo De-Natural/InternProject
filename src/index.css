@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  /* #put{
+    display: none;
+  } */
+  #icon{
+    display: none;
+  }
+  
+  @media screen and (max-width: 640px) {
+   
+    #icon{
+      display: inline;
+      position: absolute;
+      left: 10px;
+      top: 40px;
+      cursor: pointer;
+    }
+    /* #put{
+     display: inline-block;
+    } */
+    .list{
+      transform: translateX(-580px);
+      transition: all 1s;
+      background-color: antiquewhite;
+      /* transform: perspective(); */
+    }
+    #put:checked ~ .list{
+      transform: translateX(0);
+    }
+    .container{
+      /* border: 1px solid blue; */
+      flex-direction: column;
+      height: fit-content;
+      margin-bottom: 20px;
+    }
+    .aside{
+      width: 100%;
+      height: 200px;
+    }
+    .preview{
+      width: 100%;
+      height: fit-content;
+      /* border: 1px solid purple; */
+    }
+    .components{
+      height: fit-content;
+      width: inherit;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .long{
+      height: 150px;
+      /* border: 1px solid purple; */
+    }
+    .img{
+      height: inherit;
+    }
+    /* .text{
+      border: 1px solid red;
+    } */
+    .containing{
+      width: 100%;
+      /* border: 1px solid blue; */
+      flex-direction: column;
+      height: fit-content;
+      margin-bottom: 20px;
+    }
+    .main{
+      height: 380px;
+      width: 100%;
+    }
+    .figure{
+      height: fit-content;
+      width: 100%;
+      flex-direction: column;
+    }
+    .eat{
+      height: 450px;
+      flex-direction: column;
+      margin-bottom: 150px;
+    }
+    .post{
+      height: 450px;
+      width: 100%;
+    }
+    /*  */
+    .chop{
+      height: 280px;
+      width: 100%;
+    }
+    .iu{
+      height: fit-content;
+      margin-bottom: 20px;
+      margin-top: 300px;
+    }
+    .h2{
+      transform: translateX(0);
+    }
+    .bottle{
+      flex-direction: column;
+      margin-bottom: 350px;
+    }
+    .card{
+      height: 180px;
+    }
+    .card img{
+      height: 100%;
+      width: 100%;
+    }
+    .svg{
+      height: fit-content;
+      flex-direction: column;
+      gap: 20px;
+      /* display: none; */
+    }
+    .icon{
+      height: 50px;
+    }
+    .icon img{
+      object-fit: contain;
+    }
+    .fe{
+      height: fit-content;
+      margin-bottom: 10px;
+      
+    }
+    .acc{
+      height: fit-content;
+      width: 100%;
+      flex-direction: column;
+    }
+    .postCard{
+      height: 350px;
+    }
+    .buy{
+      height: 150vh;
+    }
+    .nam{
+      height: 150px;
+      flex-direction: column;
+    }
+    .side{
+      width: 90%;
+      text-align: center;
+    }
+    .foot{
+      flex-direction: column;
+      height: fit-content;
+    }
+    .ul{
+      height: 120px;
+    }
+    .fig{
+      flex-direction: column;
+    }
+  }
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
