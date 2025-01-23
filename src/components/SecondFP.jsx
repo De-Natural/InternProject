@@ -1,5 +1,5 @@
 import React from 'react'
-import FurnitureProduct from './furnitureProduct'
+import FurnitureProduct from './FurnitureProduct'
 
 export default function SecondFP() {
   
