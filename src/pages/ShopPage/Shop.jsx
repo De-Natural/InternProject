@@ -20,7 +20,7 @@ function Shop({ selectedImage, selectedPrice }) {
     };
 
   return (
-    <div className='h-screen w-full'>
+    <div className='parent h-screen w-full'>
         <Nav iconCounts={iconCounts} />
         <FirstShop incrementIconCount={incrementIconCount} selectedImage={selectedImage} selectedPrice={selectedPrice} />
         <Description />

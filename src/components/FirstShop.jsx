@@ -11,7 +11,7 @@ export default function FirstShop({ incrementIconCount, selectedImage, selectedP
 
 
 console.log(location.state?.selectedImage)
-  // Function to handle image click
+
   const handleImageClick = (src) => {
     setMainImage(src);
   }
@@ -33,7 +33,7 @@ console.log(location.state?.selectedImage)
       </nav>
       <div className="tall h-[calc(100%-40px)] w-full flex items-center gap-5">
          <div className="picture h-full w-[50%] flex flex-col gap-4">
-         <div className="img h-[75%] w-full relative">
+         <div className="imgg h-[75%] w-full relative">
             <i
               className="text-4xl top-2/4 left-5 cursor-pointer absolute fa fa-angle-left"
               aria-hidden="true"
@@ -70,8 +70,8 @@ console.log(location.state?.selectedImage)
             <input 
               className="h-10 w-40 border indent-2 outline-none text-xl font bold"
               type="text"
-              value={mainImage?.prices?.promoPrice || mainImage?.prices?.actualPrice} // Dynamically reflect the price
-              readOnly // Make the field read-only if it's not meant to be edited
+              value={mainImage?.prices?.promoPrice || mainImage?.prices?.actualPrice}
+              readOnly
             />
             <p>Avaliabilty</p>
           </mark>

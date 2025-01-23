@@ -8,7 +8,7 @@ import Que4 from '../assets/Que4.png'
 
 export default function Delivery() {
   return (
-    <div className=' md mt-20:h-full w-full flex items-center justify-center'>
+    <div className='md :h-full w-full flex items-center justify-center'>
       <div className="containing h-[680px] w-[80%]">
         <main className='main h-[550px] w-full flex'>
           <div className="bike h-full w-[780px]">

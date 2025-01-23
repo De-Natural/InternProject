@@ -62,12 +62,12 @@ export default function SpoonDen() {
         ))}
       </div>
        <div className="sv h-[120px] w-[80%] flex items-center justify-around">
-            <div className="icon h-[100px] w-[200px]"><img src={Icon1} alt="" /></div>
-            <div className="icon h-[100px] w-[200px]"><img src={Icon2} alt="" /></div>
-            <div className="icon h-[100px] w-[200px]"><img src={Icon3} alt="" /></div>
-            <div className="icon h-[100px] w-[200px]"><img src={Icon4} alt="" /></div>
-            <div className="icon h-[100px] w-[200px]"><img src={Icon5} alt="" /></div>
-            <div className="icon h-[100px] w-[200px]"><img src={Icon6} alt="" /></div>
+            <div className="icom h-[100px] w-[200px]"><img src={Icon1} alt="" /></div>
+            <div className="icom h-[100px] w-[200px]"><img src={Icon2} alt="" /></div>
+            <div className="icom h-[100px] w-[200px]"><img src={Icon3} alt="" /></div>
+            <div className="icom h-[100px] w-[200px]"><img src={Icon4} alt="" /></div>
+            <div className="icom h-[100px] w-[200px]"><img src={Icon5} alt="" /></div>
+            <div className="icom h-[100px] w-[200px]"><img src={Icon6} alt="" /></div>
         </div>
     </div>
   )

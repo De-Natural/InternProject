@@ -95,7 +95,7 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
     };
     
     const handleClick = (price) => {
-      setSelectedPrice(price); // Update the price in the parent
+      setSelectedPrice(price);
     };
 
     return (
@@ -112,7 +112,7 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
           <div className={`preview h-full sm:w-[calc(100%-320px)] ${second}`}>
             <header className='h-fit sm:h-16 w-full flex flex-col sm:flex-row items-center gap-3 sm:gap-10 justify-center sm:justify-around border-b-[1px]'>
               <h2 className='text-[30px] font-serif'>BestSeller</h2>
-              <div ref={listRef} className="list h-10 w-[70%] sm:w-64 flex items-center justify-around sm:gap-10 overflow-x-hidden">
+              <div ref={listRef} className="listed h-10 w-[70%] sm:w-64 flex items-center justify-around sm:gap-10 overflow-x-hidden">
                 {Object.keys(productArr).map((category) => (
                   <p
                     key={category}
@@ -140,11 +140,9 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
                 key={`${currentCategory}-${index}`}
                 {...data}
                 onClick={() => {
-                  setSelectedImage(data); // Update local state
+                  setSelectedImage(data);
                   navigate('/shop', { state: { selectedImage: data } });
-                  // handleClick(item.prices.actualPrice)
-                }} 
-                // {item.prices.actualPrice}               
+                }}               
               />
             ))}
             </div>

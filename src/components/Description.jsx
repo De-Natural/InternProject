@@ -23,7 +23,6 @@ export default function Description() {
     }
   };
 
-  // Function to handle tab switching
   const handleTabClick = (tab) => {
     if (tab === 'Reviews') {
       setReviewCount((prevCount) => prevCount + 1);
@@ -32,8 +31,8 @@ export default function Description() {
   };
 
   return (
-    <div className=" h-full w-full flex flex-col items-center justify-center gap-5">
-      {/* Navigation */}
+    <div className="tie h-full w-full flex flex-col items-center justify-center gap-5">
+
       <div className="head h-16 w-2/5 flex items-center justify-evenly border-b border-gray-300">
         <p
           className={`cursor-pointer ${activeTab === 'Description' ? 'font-semibold underline' : ''}`}
