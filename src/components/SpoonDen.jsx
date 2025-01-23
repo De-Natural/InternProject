@@ -49,19 +49,19 @@ export default function SpoonDen() {
     // }
 
   return (
-    <div className='h-full w-full flex flex-col items-center justify-center gap-4'>
+    <div className='all h-full w-full flex flex-col items-center justify-center gap-4'>
       <p className='text-xl font-semibold translate-x-[-400px] uppercase'>bestseller product</p>
       <div className="plane h-[600px] w-4/5 grid grid-cols-4 gap-3 p-2">
        
         {displayedCards?.map((data, index) => (
-            <ProductCard
+            <ProductCard className="pet"
             key={`${index}`}
             {...data}
                             
             />
         ))}
       </div>
-       <div className="svg h-[120px] w-[80%] flex items-center justify-around">
+       <div className="sv h-[120px] w-[80%] flex items-center justify-around">
             <div className="icon h-[100px] w-[200px]"><img src={Icon1} alt="" /></div>
             <div className="icon h-[100px] w-[200px]"><img src={Icon2} alt="" /></div>
             <div className="icon h-[100px] w-[200px]"><img src={Icon3} alt="" /></div>

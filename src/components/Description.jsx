@@ -32,7 +32,7 @@ export default function Description() {
   };
 
   return (
-    <div className="h-full w-full flex flex-col items-center justify-center gap-5">
+    <div className=" h-full w-full flex flex-col items-center justify-center gap-5">
       {/* Navigation */}
       <div className="head h-16 w-2/5 flex items-center justify-evenly border-b border-gray-300">
         <p
@@ -59,7 +59,7 @@ export default function Description() {
       <div className="pull h-4/5 w-4/5 flex items-center justify-around">
       
         <div className="pullPic h-4/5 w-96">
-          <img className="h-full w-full object-contain" src={cake1} alt="Cake" />
+          <img className="h-full w-full object-[contain, 100%]" src={cake1} alt="Cake" />
         </div>
 
        

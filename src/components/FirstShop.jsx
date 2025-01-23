@@ -31,7 +31,7 @@ console.log(location.state?.selectedImage)
           <a href='#'>Shop</a>
         </div>
       </nav>
-      <div className=" h-[calc(100%-40px)] w-full flex items-center gap-5">
+      <div className="tall h-[calc(100%-40px)] w-full flex items-center gap-5">
          <div className="picture h-full w-[50%] flex flex-col gap-4">
          <div className="img h-[75%] w-full relative">
             <i
@@ -68,7 +68,7 @@ console.log(location.state?.selectedImage)
           <p><span>10 reviews</span></p>
           <mark className='h-28 w-auto flex flex-col gap-3 bg-transparent'>
             <input 
-              className="h-10 w-40 border indent-2 outline-none"
+              className="h-10 w-40 border indent-2 outline-none text-xl font bold"
               type="text"
               value={mainImage?.prices?.promoPrice || mainImage?.prices?.actualPrice} // Dynamically reflect the price
               readOnly // Make the field read-only if it's not meant to be edited
