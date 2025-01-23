@@ -4,7 +4,7 @@ import StartNow from '../../components/StartNow';
 import DeThree from '../../components/DeThree';
 import FurnitureProduct from '../../components/FurnitureProduct';
 import Delivery from '../../components/Delivery';
-import SecondFP from '../../components/secondFP';
+import SecondFP from '../../components/SecondFP';
 import { Eating } from '../../components/Eating';
 import BsellerPro from '../../components/BsellerPro';
 import FeaturePost from '../../components/FeaturePost';
