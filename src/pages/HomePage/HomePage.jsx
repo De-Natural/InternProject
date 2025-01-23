@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../../components/Nav';
 import StartNow from '../../components/StartNow';
 import DeThree from '../../components/DeThree';
-import FurnitureProduct from '../../components/furnitureProduct';
+import FurnitureProduct from '../../components/FurnitureProduct';
 import Delivery from '../../components/Delivery';
 import SecondFP from '../../components/secondFP';
 import { Eating } from '../../components/Eating';
