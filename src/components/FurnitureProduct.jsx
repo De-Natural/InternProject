@@ -142,6 +142,7 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
                 onClick={() => {
                   setSelectedImage(data);
                   navigate('/shop', { state: { selectedImage: data } });
+                  // scrollT
                 }}               
               />
             ))}
