@@ -99,7 +99,7 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
     };
 
     return (
-      <div className='h-full w-full'>
+      <div className='h-fit w-full'>
         <div className={`container h-fit sm:h-[700px] sm:w-[80%] flex flex-col sm:flex-row mx-auto mt-6 ${containerClassName}`}>
           <div className={`aside h-screen sm:h-full w-full sm:w-80 relative ${first}`}>
             <div className='relative z-30 px-5'>

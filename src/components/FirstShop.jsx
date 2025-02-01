@@ -23,7 +23,7 @@ console.log(location.state?.selectedImage)
   }, [location.state?.selectedImage]);  
 
   return (
-    <div className='h-screen w-full'>
+    <div className='h-fit w-full'>
       <nav className='h-10 w-full'>
         <div className="beside h-8 w-32 ml-5 flex items-center justify-evenly text-md">
           <a href="#">Home</a>
@@ -70,8 +70,8 @@ console.log(location.state?.selectedImage)
             <input 
               className="h-10 w-40 border indent-2 outline-none text-xl font bold"
               type="text"
-              value={mainImage?.prices?.promoPrice || mainImage?.prices?.actualPrice} // Dynamically reflect the price
-              readOnly // Make the field read-only if it's not meant to be edited
+              value={mainImage?.prices?.promoPrice || mainImage?.prices?.actualPrice}
+              readOnly
             />
             <p>Avaliabilty</p>
           </mark>

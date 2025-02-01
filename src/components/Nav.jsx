@@ -25,7 +25,7 @@ export default function Nav({ iconCounts = { cart: 0, heart: 0 } }) {
           <a href="/login">Login</a> /
           <a href="/register">Register</a>
         </div>
-        <div className="icon h-8 w-[30%] sm:w-[100px] flex items-center justify-around">
+        <div className="icon h-8 w-[40%] sm:w-[100px] flex items-center justify-around">
            {/* <i className="text-xl text-blue fa fa-search" aria-hidden="true">{iconCounts.search}</i> */}
           <i className="text-xl text-blue fa fa-shopping-cart" aria-hidden="true">{iconCounts.cart}</i>
           <i className="text-xl text-blue fa fa-heart" aria-hidden="true">{iconCounts.heart}</i>

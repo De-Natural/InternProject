@@ -9,7 +9,9 @@
   }
   
   @media screen and (max-width: 640px) {
-   
+    .login{
+      display: none;
+    }
     #icon{
       display: inline;
       position: absolute;
@@ -190,9 +192,9 @@
     .line{
       width: 100%;
     }
-    .tie{
-      margin-top: 320px;
-    }
+    /* .tie{
+      margin-top: 100px;
+    } */
     .head{
       flex-direction: column;
       width: 100%;
