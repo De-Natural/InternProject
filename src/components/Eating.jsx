@@ -6,7 +6,7 @@ import Color from '../assets/product-colors.png'
 
 export const Eating = () => {
   return (
-    <div className='eat h-screen w-full'>
+    <div className='eat h-screen w-full mt-20'>
       <div className='h-full w-11/12 mx-auto xl:w-8/12 px-2 py-4 flex'>
         <div className="post h-full w-[500px] items-center bg-[#FAFAFA] flex flex-col gap-2">
   

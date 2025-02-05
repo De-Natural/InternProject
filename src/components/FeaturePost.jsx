@@ -55,7 +55,7 @@ export default function FeaturePost() {
         <div className='fe h-fit w-full flex flex-col items-center gap-5 justify-around'>
             <p className='text-blue-700'>Practice Advice</p>
             <h2 className='text-3xl font-semibold'>Featured Post</h2>
-            <main className='acc h-[560px] w-[90%] flex items-center justify-around'>
+            <main className='acc h-[560px] w-[80%] flex items-center justify-around'>
                 <PostCard image={content1} initialText="Lorem ipsum dolor sit amet consectetur." />
                 <PostCard image={content2} initialText="Eos quaerat adipisci illo aliquid voluptatum." />
                 <PostCard image={content3} initialText="Laboriosam eveniet ab minus deleniti quae." />

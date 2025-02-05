@@ -62,7 +62,7 @@ const productArr = {
   ],
 }
 
-export default function FurnitureProduct( {containerClassName,first,second,setSelectedImage} ) {
+export default function FurnitureProduct( {containerClassName,first,second,setSelectedImage,ImageSrc} ) {
  
     const [currentCategory, setCurrentCategory] = useState('Men');
     const [displayedCards, setDisplayedCards] = useState(productArr[currentCategory]);
@@ -100,13 +100,13 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
 
     return (
       <div className='h-fit w-full'>
-        <div className={`container h-fit sm:h-[700px] sm:w-[80%] flex flex-col sm:flex-row mx-auto mt-6 ${containerClassName}`}>
-          <div className={`aside h-screen sm:h-full w-full sm:w-80 relative ${first}`}>
+        <div className={`container h-fit sm:h-[700px] sm:w-3/4 flex flex-col sm:flex-row mx-auto mt-6 ${containerClassName} mb-5`}>
+          <div className={`aside h-screen sm:h-full w-full sm:w-80 relative ${first}`} >
             <div className='relative z-30 px-5'>
               <p>Furniture</p>
               <span>{displayedCards.length} Items</span>
             </div>
-            <img src={frunti} alt="" className='absolute top-0 w-full h-full object-cover object-center z-10' />
+            <img src={ImageSrc || frunti} alt="" className='absolute top-0 w-full h-full object-cover object-center z-10' />
           </div>
   
           <div className={`preview h-full sm:w-[calc(100%-320px)] ${second}`}>

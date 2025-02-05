@@ -22,7 +22,7 @@ function HomePage({setSelectedImage, setSelectedPrice, setSelectedProduct }) {
         setSelectedPrice={setSelectedPrice}
       />
       <Delivery />
-      {/* <SecondFP /> */}
+      <SecondFP />
       <Eating />
       <BsellerPro />
       <FeaturePost />

@@ -12,9 +12,9 @@ import Icon6 from '../assets/Icon-6.png';
 
 export default function BsellerPro() {
   return (
-    <div className='iu h-screen w-full flex flex-col items-center justify-around'>
-        <h2 className='h2 text-3xl font-medium ml-4 lg:translate-x-[-450px]'>Best Seller Product</h2>
-        <div className=" bottle h-[400px] w-[80%] flex items-center justify-around">
+    <div className='iu h-screen w-full flex flex-col items-center justify-around bg-[#FAFAFA]'>
+        <h2 className='h2 text-3xl font-medium ml-4 lg:translate-x-[-350px]'>Best Seller Product</h2>
+        <div className=" bottle h-[400px] w-3/4 flex items-center justify-around">
             <div className="card h-[360px] w-[210px] flex flex-col items-center justify-around gap-2">
               <div className="div h-52 w-full flex flex-col text-center gap-4">
               <img className='h-full w-full' src={light1} alt="" />
