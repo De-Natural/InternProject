@@ -14,7 +14,7 @@ const PostCard = ({ image, initialText }) => {
     };
 
     return (
-        <div className="postCard h-[520px] w-[350px] border border-gray-200">
+        <div className="postCard h-[520px] w-full lg:w-[350px] border border-gray-200">
             <div className="div h-60 w-full flex flex-col text-center gap-4">
                 <img className='h-full w-full' src={image} alt="" />
             </div>
@@ -52,10 +52,10 @@ const PostCard = ({ image, initialText }) => {
 
 export default function FeaturePost() {
     return (
-        <div className='fe h-fit w-full flex flex-col items-center gap-5 justify-around'>
+        <div className='h-fit w-full flex flex-col items-center gap-5 justify-around'>
             <p className='text-blue-700'>Practice Advice</p>
             <h2 className='text-3xl font-semibold'>Featured Post</h2>
-            <main className='acc h-[560px] w-[80%] flex items-center justify-around'>
+            <main className=' h-fit lg:h-[560px] w-full lg:w-[80%] flex flex-col lg:flex-row items-center justify-around'>
                 <PostCard image={content1} initialText="Lorem ipsum dolor sit amet consectetur." />
                 <PostCard image={content2} initialText="Eos quaerat adipisci illo aliquid voluptatum." />
                 <PostCard image={content3} initialText="Laboriosam eveniet ab minus deleniti quae." />

@@ -81,7 +81,7 @@ console.log(location.state?.selectedImage)
           </div>
           <div className="line h-20 w-[50%] flex items-center justify-around">
             <button className='h-10 w-40 cursor-pointer rounded-xl bg-blue-700 text-white'>Select Option</button>
-            <div className="icon h-8 w-[30%] sm:w-[100px] flex items-center justify-around">
+            <div className="icon h-8 w-[30%] lg:w-[100px] flex items-center justify-around">
               <i className="text-xl cursor-pointer fa fa-search" aria-hidden="true" onClick={()=>incrementIconCount('search')}></i>
               <i className="text-xl cursor-pointer fa fa-shopping-cart" aria-hidden="true" onClick={()=>incrementIconCount('cart')}></i>
               <i className="text-xl cursor-pointer fa fa-heart" aria-hidden="true" onClick={()=>incrementIconCount('heart')}></i>

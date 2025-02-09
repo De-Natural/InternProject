@@ -100,8 +100,8 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
 
     return (
       <div className='h-fit w-full'>
-        <div className={`container h-fit sm:h-[700px] sm:w-3/4 flex flex-col sm:flex-row mx-auto mt-6 ${containerClassName} mb-5`}>
-          <div className={`aside h-screen sm:h-full w-full sm:w-80 relative ${first}`} >
+        <div className={`container h-fit lg:h-[700px] lg:w-3/4 flex flex-col lg:flex-row mx-auto mt-6 ${containerClassName} mb-5`}>
+          <div className={`aside h-screen lg:h-full w-full lg:w-80 relative ${first}`} >
             <div className='relative z-30 px-5'>
               <p>Furniture</p>
               <span>{displayedCards.length} Items</span>
@@ -109,10 +109,10 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
             <img src={ImageSrc || frunti} alt="" className='absolute top-0 w-full h-full object-cover object-center z-10' />
           </div>
   
-          <div className={`preview h-full sm:w-[calc(100%-320px)] ${second}`}>
-            <header className='h-fit sm:h-16 w-full flex flex-col sm:flex-row items-center gap-3 sm:gap-10 justify-center sm:justify-around border-b-[1px]'>
+          <div className={`preview h-full lg:w-[calc(100%-320px)] ${second}`}>
+            <header className='h-fit lg:h-16 w-full flex flex-col lg:flex-row items-center gap-3 lg:gap-10 justify-center lg:justify-around border-b-[1px]'>
               <h2 className='text-[30px] font-serif'>BestSeller</h2>
-              <div ref={listRef} className="listed h-10 w-[70%] sm:w-64 flex items-center justify-around sm:gap-10 overflow-x-hidden">
+              <div ref={listRef} className="listed h-10 w-[70%] lg:w-64 flex items-center justify-around lg:gap-10 overflow-x-hidden">
                 {Object.keys(productArr).map((category) => (
                   <p
                     key={category}
@@ -134,7 +134,7 @@ export default function FurnitureProduct( {containerClassName,first,second,setSe
               </div>
             </header>
   
-            <div className="components sm:h-[calc(100%-64px)] w-full sm:w-full grid grid-cols-1 sm:grid-cols-3 items-center justify-center pt-4 gap-1">
+            <div className="components lg:h-[calc(100%-64px)] w-full lg:w-full grid grid-cols-1 lg:grid-cols-3 items-center justify-center pt-4 gap-1">
             {displayedCards.map((data, index) => (
               <ProductCard
                 key={`${currentCategory}-${index}`}

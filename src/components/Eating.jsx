@@ -7,7 +7,7 @@ import Color from '../assets/product-colors.png'
 export const Eating = () => {
   return (
     <div className='eat h-screen w-full mt-20'>
-      <div className='h-full w-11/12 mx-auto xl:w-8/12 px-2 py-4 flex'>
+      <div className='h-fit lg:h-full w-11/12 mx-auto xl:w-8/12 px-2 py-4 flex flex-col lg:flex-row'>
         <div className="post h-full w-[500px] items-center bg-[#FAFAFA] flex flex-col gap-2">
   
           <div className="div h-40 w-4/5 flex flex-col text-center gap-4">
@@ -25,7 +25,7 @@ export const Eating = () => {
               <div className='h-4 w-20'><img className='h-full w-full' src={Color} alt="" /></div>
             </div>
           </div>
-        <div className="chop h-full w-full">
+        <div className="chop h-[280px] lg:h-full w-full">
           <img className='h-full w-full object-[100%]' src={popular} alt="" />
         </div>
       </div>

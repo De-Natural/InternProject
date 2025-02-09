@@ -3,11 +3,11 @@ import React from 'react'
 const ProductCard = ({image,productName,description,prices, onImageClick,onClick }) => {
   return (
     <div 
-      className='long h-[250px] w-full  flex flex-col items-center justify-between'
+      className='w-full  flex flex-col items-center justify-between'
       onClick={onClick}
     >
-      <div className="img h-[180px] w-full" onClick={onImageClick}>
-        <img src={image} alt={productName} style={{objectFit: 'contain', height: '100%', width:'100%', cursor:'pointer'}} />
+      <div className="img h-[180px] w-full overflow-y-hidden" onClick={onImageClick}>
+        <img src={image} alt={productName} style={{objectFit: 'cover', objectPosition: 'top', height: '100%', width:'100%', cursor:'pointer'}} />
       </div>
       <div className="text h-[80px] w-full text-center">
         <h2 className='font-medium'>{productName}</h2>

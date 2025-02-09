@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FooterSlhop() {
   return (
-    <div className='buy h-[480px] w-full bg-transparent text-black flex flex-col items-center justify-around'>
+    <div className='min-h-screen w-full bg-transparent text-black flex flex-col items-center justify-around'>
         <div className="nam h-[100px] w-[90%] flex items-center justify-between px-4">
             <aside className='side h-20 w-96 flex flex-col gap-2 text-left'>
                 <h2 className='text-3xl font-bold'>Bandage</h2>
@@ -13,36 +13,36 @@ export default function FooterSlhop() {
             <i className="text-[#23A6F0] fa fa-twitter" aria-hidden="true"></i>
             </div>
         </div>
-        <main className='foot h-[300px] w-[90%] flex items-center justify-around'>
-            <ul className='ul h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
+        <main className='gap-4 h-fit lg:h-[300px] w-[90%] flex flex-col lg:flex-row items-center justify-around'>
+            <ul className='h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
                 <li>Company Info</li>
                 <li>About Us</li>
                 <li>Carrier</li>
                 <li>We are hiring</li>
                 <li>Blog</li>
             </ul>
-            <ul className='ul h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
+            <ul className='h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
                 <li>Legal</li>
                 <li>About us</li>
                 <li>Carrier</li>
                 <li>We are hiring</li>
                 <li>Blog</li>
             </ul>
-            <ul className='ul h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
+            <ul className='h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
                 <li>Features</li>
                 <li>Business Marketing</li>
                 <li>User Analytics</li>
                 <li>Live Chat</li>
                 <li>Unlimited Support</li>
             </ul>
-            <ul className='ul h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
+            <ul className='h-[180px] w-[200px] flex flex-col items-center justify-around text-md'>
                 <li>Resourse</li>
                 <li>ios and Andriod</li>
                 <li>Watch a Demo</li>
                 <li>Customers</li>
                 <li>API</li>
             </ul>
-            <ul className='ul h-[180px] w-[180px] flex flex-col items-center justify-around text-md'>
+            <ul className='h-[180px] w-[180px] flex flex-col items-center justify-around text-md'>
                 <h2>Get In Touch</h2>
                 <div className="leadEmail h-16 w-52 flex">
                     <input className='h-full w-36 outline-none indent-2 p-4 bg-gray-300' type="text" placeholder='Your email' />

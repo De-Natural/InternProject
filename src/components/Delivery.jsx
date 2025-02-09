@@ -6,11 +6,11 @@ export default function Delivery() {
   return (
     <div className='h-fit w-full flex items-center justify-center'>
       <div className="containing h-fit gap-4 md:h-[680px] w-[80%] flex flex-col items-center justify-center">
-        <main className='main h-fit gap-4 md:h-[550px] w-3/4 flex flex-col items-center justify-center md:flex-row'>
-          <div className="bike h-full w-full md:w-[780px]">
+        <main className='main gap-4 md:h-[550px] w-3/4 flex flex-col items-center justify-center md:flex-row'>
+          <div className=" h-full w-full md:w-[780px]">
             <img className='h-full w-full object-center' src={okada} alt="" />
           </div>
-          <div className="board h-full w-2/5 bg-[#FAFAFA] flex flex-col gap-2">
+          <div className="board h-full w-full lg:w-3/5 bg-[#FAFAFA] flex flex-col gap-2">
             {/* <img className='h-full w-full object-center' src={board} alt="" /> */}
             <div className="div h-40 w-full flex flex-col text-center gap-4">
               <h2 className='text-2xl font-medium'>Most popular</h2>
@@ -26,36 +26,36 @@ export default function Delivery() {
             </div>
           </div>
         </main>
-        <figure className='figure h-fit sm:h-[calc(100%-550px)] w-fit sm:w-full flex-wrap m-auto items-center justify-center sm:flex'>
-          <div className="num h-24 w-48 flex items-center justify-center gap-2">
-            <span className="font-bold text-[25px] text-red-600 mt-[-20px]">1.</span>
+        <figure className='figure h-fit lg:h-[calc(100%-550px)] w-fit lg:w-full flex-wrap m-auto items-center justify-center lg:flex'>
+          <div className="num h-28 mb-4 lg:h-24 w-full lg:w-48 flex items-center justify-center gap-2">
+            <span className="font-bold text-[25px] text-red-600 mt-[-50px] lg:mt-[-20px]">1.</span>
             <div className="sample h-20 w-40">
-              <h2 className="text-base font-medium">Ease to use</h2>
-              <p className="text-[12px]">Things on a very small that you have any direct</p>
+              <h2 className="text-[22px] lg:text-base font-semibold lg:font-medium">Ease to use</h2>
+              <p className="text-base lg:text-[12px]">Things on a very small that you have any direct</p>
             </div>
           </div>
 
-          <div className="num h-24 w-48 flex items-center justify-center gap-2">
-            <span className="font-bold text-[25px] text-red-600 mt-[-20px]">2.</span>
+          <div className="num h-28 mb-4 lg:h-24 w-full lg:w-48 flex items-center justify-center gap-2">
+            <span className="font-bold text-[25px] text-red-600 mt-[-50px] lg:mt-[-20px]">2.</span>
             <div className="sample h-20 w-40">
-              <h2 className="text-base font-medium">Ease to use</h2>
-              <p className="text-[12px]">Things on a very small that you have any direct</p>
+              <h2 className="text-[22px] lg:text-base font-semibold lg:font-medium">Ease to use</h2>
+              <p className="text-base lg:text-[12px]">Things on a very small that you have any direct</p>
             </div>
           </div>
 
-          <div className="num h-24 w-48 flex items-center justify-center gap-2">
-            <span className="font-bold text-[25px] text-red-600 mt-[-20px]">3.</span>
+          <div className="num h-28 mb-4 lg:h-24 w-full lg:w-48 flex items-center justify-center gap-2">
+            <span className="font-bold text-[25px] text-red-600 mt-[-50px] lg:mt-[-20px]">3.</span>
             <div className="sample h-20 w-40">
-              <h2 className="text-base font-medium">Ease to use</h2>
-              <p className="text-[12px]">Things on a very small that you have any direct</p>
+              <h2 className="text-[22px] lg:text-base font-semibold lg:font-medium">Ease to use</h2>
+              <p className="text-base lg:text-[12px]">Things on a very small that you have any direct</p>
             </div>
           </div>
 
-          <div className="num h-24 w-48 flex items-center justify-center gap-2">
-            <span className="font-bold text-[25px] text-red-600 mt-[-20px]">4.</span>
+          <div className="num h-28 mb-4 lg:h-24 w-full lg:w-48 flex items-center justify-center gap-2">
+            <span className="font-bold text-[25px] text-red-600 mt-[-50px] lg:mt-[-20px]">4.</span>
             <div className="sample h-20 w-40">
-              <h2 className="text-base font-medium">Ease to use</h2>
-              <p className="text-[12px]">Things on a very small that you have any direct</p>
+              <h2 className="text-[22px] lg:text-base font-semibold lg:font-medium">Ease to use</h2>
+              <p className="text-base lg:text-[12px]">Things on a very small that you have any direct</p>
             </div>
           </div>
         </figure>

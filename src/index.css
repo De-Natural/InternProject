@@ -31,12 +31,10 @@
     #put:checked ~ .list{
       transform: translateX(0);
     }
-    .container{
-      /* border: 1px solid blue; */
+    /* .container{
       flex-direction: column;
       height: fit-content;
-      margin-bottom: 100px;
-    }
+    } */
     .aside{
       width: 100%;
       height: 200px;
@@ -59,11 +57,7 @@
       padding: 8px;
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    .long{
-      height: 260px;
-      width: 80%;
-      /* border: 1px solid purple; */
-    }
+    
     .img{
       height: inherit;
     }
@@ -79,7 +73,7 @@
       margin-bottom: 20px;
     }
     .main{
-      height: 380px;
+      /* height: 380px; */
       width: 100%;
     }
     .figure{
@@ -88,19 +82,19 @@
       flex-direction: column;
     }
     .eat{
-      height: 450px;
+      /* height: 450px; */
       flex-direction: column;
-      margin-bottom: 150px;
+      /* margin-bottom: 150px; */
     }
     .post{
-      height: 450px;
+      /* height: 450px; */
       width: 100%;
     }
     /*  */
-    .chop{
+    /* .chop{
       height: 280px;
       width: 100%;
-    }
+    } */
     .iu{
       height: fit-content;
       margin-bottom: 20px;
@@ -109,62 +103,61 @@
     .h2{
       transform: translateX(0);
     }
-    .bottle{
+    /* .bottle{
       flex-direction: column;
-      margin-bottom: 350px;
-    }
-    .card{
+    } */
+    /* .card{
       height: 180px;
-    }
-    .card img{
+    } */
+    /* .card img{
       height: 100%;
       width: 100%;
-    }
-    .svg{
+    } */
+    /* .svg{
       height: fit-content;
       flex-direction: column;
       gap: 20px;
-    }
-    .icon{
+    } */
+    /* .icon{
       height: 50px;
     }
     .icon img{
       object-fit: contain;
-    }
-    .fe{
+    } */
+    /* .fe{
       height: fit-content;
       margin-bottom: 10px;
       
-    }
-    .acc{
+    } */
+    /* .acc{
       height: fit-content;
       width: 100%;
       flex-direction: column;
-    }
-    .postCard{
+    } */
+    /* .postCard{
       height: 350px;
-    }
-    .buy{
+    } */
+    /* .buy{
       height: 150vh;
-    }
-    .nam{
+    } */
+    /* .nam{
       height: 150px;
       flex-direction: column;
-    }
-    .side{
+    } */
+    /* .side{
       width: 90%;
       text-align: center;
-    }
-    .foot{
+    } */
+    /* .foot{
       flex-direction: column;
       height: fit-content;
-    }
-    .ul{
+    } */
+    /* .ul{
       height: 120px;
-    }
-    .fig{
+    } */
+    /* .fig{
       flex-direction: column;
-    }
+    } */
 
     .parent{
       height: fit-content;
@@ -221,17 +214,16 @@
       justify-content: space-between;
       /* border: 1px solid red; */
     }
-    .plane{
+    /* .plane{
       height: fit-content;
       width: 100%;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       padding: 10px;
       gap: 15px;
-      /* border: 1px solid green; */
-    }
+    } */
     .pet{
       width: 80%;
-      display: none;
+      /* display: none; */
     }
     .sv{
       margin-top: 60px;
